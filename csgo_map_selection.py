@@ -1,0 +1,1 @@
+print(", ".join([["Tuscan", "Anubis", "Breach", "Premier", "Mirage", "Inferno", "Overpass", "Vertigo", "Nuke", "Ancient", "Dust", "Train", "Cache", "Agency", "Office"][i] for i in set((lambda ls: (ls.sort(), ls)[1])([__import__("random").randint(0, 14) for i in range(0, __import__("random").randint(1, 15))]))]))
